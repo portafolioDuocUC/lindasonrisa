@@ -1,0 +1,134 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21-abr-2018, 16:49:12
+    Author     : Diana
+*/
+
+body {
+    margin: 0;
+    border: 0;
+    background-color: rgb(238, 238, 231);
+    font-family: "Segoe UI";
+    font-weight: 300;
+}
+
+#cerrarSesion {
+    z-index: 2;
+}
+
+#containerLogin {
+    text-align: center;
+    
+}
+#container {
+    margin: 30px;
+    margin-bottom: 40px;
+    padding: 10px;
+    background-color: #ffffff;
+    width: auto;
+    height: auto;
+    border: 1px solid #ccc;
+
+}
+#msgLogin {
+    color: firebrick;
+    font-weight: 400;
+    
+}
+
+#btnLogin {
+    display: block;
+    width: 150px;
+    height: 30px
+}
+header {
+    padding: 10px;
+    height: 200px;
+    background-color: #4e73aa;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+span {
+    font-style: italic;
+    font-weight: 300;
+}
+
+#logo {
+     width: 80px;
+     height: 80px;
+}
+
+
+h1, button, nav {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+button {
+    width: 180px;
+    height: 40px;
+    background-color: #107FC9;
+    color: #ffffff;
+}
+
+table {
+    margin: 20px auto; 
+}
+
+
+
+form {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: blanchedalmond;
+    border-radius: 5px;
+    text-align: center;
+
+    
+}
+
+#formUsuario {
+
+}
+#tablaFormProducto th {
+    background-color: #BBB;
+}
+
+#tablaFormProducto, td, th {
+    border-collapse: collapse;
+    border: 1px solid blanchedalmond;
+    padding: 8px;
+
+}
+
+#btnProd {
+    display: block; 
+    margin: auto;
+    width: 100px;
+    height: 40px;
+}
+
+input[type="text"] {
+    width: 200px;
+}
+input[type="password"] {
+    width: 200px;
+}
+
+footer {
+    position: fixed;
+    text-align: center;
+    background-color: #555;
+    color: #BBB;
+    font-size: 12px;
+    width: 100%;
+    height: 50px;
+    bottom:0;
+}
+
